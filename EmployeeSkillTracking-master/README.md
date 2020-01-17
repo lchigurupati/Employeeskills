@@ -6,7 +6,7 @@ checkcout the project and import to STS.
 
 # Mongodb setup
 Step 1:
-for the first time you have to run the command:
+For the first time you have to run the command:
 
 go to mongodb installed loction : C:\Windows\System32\cmd.exe
 
