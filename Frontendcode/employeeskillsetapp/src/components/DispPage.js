@@ -33,7 +33,7 @@ class DispPage extends Component {
     }
     handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state.empId)
+        console.log(this.state.empId.sort())
         fetch('http://localhost:9081/get/' + this.state.empId)
             .then(response => response.json())
             .then(data => {
